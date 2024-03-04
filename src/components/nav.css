@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+.header
+{
+  width: 100%;
+}
+.header .top-header
+{
+    max-width: 100%;
+    display: flex;
+    padding: 15px 15px;
+    background: #6cceee;
+
+}
+.header .top-header .navs p
+{
+    margin: 10px 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.header .another-header
+{
+    max-width: 100%;
+    display: flex;
+    padding: 5px 5px;
+    background: hsl(0, 44%, 90%);
+
+}
+.header .another-header .nav-link
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header .another-header .nav-link ul
+{
+    display: flex;
+}
+.header .another-header .nav-link ul li
+{
+    list-style: none;
+} 
+.header .another-header .nav-link ul li .link
+{
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
